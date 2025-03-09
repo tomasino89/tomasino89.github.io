@@ -6,7 +6,6 @@
     <title>Leaflet slider testovací mapa</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="https://storymaps.arcgis.com/embed/view" data-story-id="efb02849363748ce92120548f525efe0" data-root-node=".storymaps-root" ></script>
     <!-- pro pouziti AJAXU -->
         <!-- <script src="leaflet.ajax.min.js"></script> -->
     <style>
@@ -90,7 +89,8 @@
         </div>
         <div class="div4"><button onclick="spusteno()">Začít</button></div>
     </div>
-
+    <!-- storymap test -->
+    <script src="https://storymaps.arcgis.com/embed/view" data-story-id="efb02849363748ce92120548f525efe0" data-root-node=".storymaps-root" ></script>
 <script>
     // zapnuti mapy
     var map = L.map('map').setView([49.593889, 17.250833], 15); // stred ve stredu Olomouce a zoom 15
